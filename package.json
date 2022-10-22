@@ -1,0 +1,24 @@
+{
+  "name": "kafka-app-paananen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henzki/kafka-app-paananen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henzki/kafka-app-paananen/issues"
+  },
+  "homepage": "https://github.com/henzki/kafka-app-paananen#readme",
+  "dependencies": {
+    "avsc": "^5.7.6",
+    "node-rdkafka": "^2.14.0"
+  }
+}
